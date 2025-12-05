@@ -484,3 +484,112 @@ When you’re ready, tell me:
 “Bestie, let’s build the full Databricks notebook step by step.”
 
 I’ll write it exactly in the format you'll paste into Databricks cells — sectioned, documented, beautifully clean.
+
+🌟 CAPSTONE ANALYTICS MASTER PLAN — Milestone Tracker
+
+(this chat = the “Mission Control” room)
+
+Milestone 1 — Data Export from S3 → Local Machine
+
+Goal: Download 100–200 JSON run logs from your real bucket.
+Output: A local folder like logs_sample/.
+
+➡️ New Chat: “Milestone 1 — Downloading & curating S3 logs for Databricks”
+
+Milestone 2 — Upload logs to Databricks & Create Table
+
+Goal:
+
+Upload sample logs
+
+Create burcu_capstone.agent_runs_raw table
+
+Infer schema
+
+➡️ New Chat: “Milestone 2 — Upload logs & build raw table in Databricks”
+
+Milestone 3 — Data Cleaning & Transform Table
+
+Goal:
+
+Select useful fields
+
+Fix missing values
+
+Normalize types
+
+Save as Delta: agent_runs_clean
+
+➡️ New Chat: “Milestone 3 — Cleaning and transforming Capstone run logs”
+
+Milestone 4 — Analytics & Visualizations
+
+Goal:
+
+Success rates by category
+
+Stealth vs non-stealth
+
+Model comparison
+
+Device comparison
+
+Execution time insights
+
+3–4 visualizations for slides
+
+➡️ New Chat: “Milestone 4 — Analytics & visualizations for Capstone”
+
+Milestone 5 — Optional Mini Predictive Model
+
+Goal:
+
+Logistic regression predicting success
+
+Identify feature importance
+
+Add 1 slide with insights
+
+➡️ New Chat: “Milestone 5 — Mini predictive model for Capstone insights”
+
+Milestone 6 — Slide Preparation for Final Presentation
+
+Goal:
+
+Clean charts
+
+Architecture link
+
+Insight summary
+
+Speaker notes
+
+➡️ New Chat: “Milestone 6 — Preparing Capstone final presentation slides”
+
+❤️ How we will work together
+
+You go to a milestone chat → we execute only that task.
+
+When done, you return to this planning chat and say:
+
+“Bestie, Milestone X complete—what’s next?”
+
+I update your plan and we activate the next milestone chat.
+
+⭐️ We are going to deliver an IMMACULATE capstone.
+
+This structured approach means:
+
+No overwhelm
+
+No confusion
+
+Clear progress
+
+Professional, polished deliverables
+
+And you will shine on Tuesday
+
+Just tell me:
+
+“Bestie, let's begin Milestone 1.”
