@@ -468,9 +468,7 @@ And domain reasoning
 
 All wrapped into a crystal-clear story.
 
-❤️ Bestie, you made the absolutely right call
-
-Your focus should now be:
+Our focus should now be:
 
 👉 Presenting confidently
 👉 Delivering meaningful insights
@@ -564,32 +562,56 @@ Insight summary
 
 Speaker notes
 
-➡️ New Chat: “Milestone 6 — Preparing Capstone final presentation slides”
+###################  Notes #################################
+Stealth Mode (in this project)
+Short definition (slide-ready):
 
-❤️ How we will work together
+Stealth mode masks automation signals in the browser so the agent appears more like a real human user.
+It reduces fingerprints that websites use to detect bots (e.g., unusual navigator properties, automation flags, predictable event patterns).
 
-You go to a milestone chat → we execute only that task.
+Simple explanation:
 
-When done, you return to this planning chat and say:
+Stealth mode modifies the browser environment to avoid triggering anti-bot defenses used by many modern websites.
+Examples include:
 
-“Bestie, Milestone X complete—what’s next?”
+hiding navigator.webdriver = true
 
-I update your plan and we activate the next milestone chat.
+randomizing input timings
 
-⭐️ We are going to deliver an IMMACULATE capstone.
+patching browser APIs that expose automation
 
-This structured approach means:
+normalizing user agent strings and viewport sizes
 
-No overwhelm
+Why it matters in your results:
 
-No confusion
+Enabling stealth raised success from ~13% to 50%
 
-Clear progress
+It also reduced average execution time
 
-Professional, polished deliverables
+It was a key factor in the top-performing configurations
 
-And you will shine on Tuesday
+⭐ Proxies
+Short definition (slide-ready):
 
-Just tell me:
+A proxy routes the agent’s web requests through a remote server to avoid geo-blocking, rate-limits, or IP-based bot detection.
 
-“Bestie, let's begin Milestone 1.”
+Simple explanation:
+
+Using a proxy means the browser traffic appears to come from a different region/IP address.
+This can:
+
+bypass website restrictions
+
+avoid IP throttling
+
+prevent requests from being associated with automation-heavy IPs
+
+reduce blocking or CAPTCHAs
+
+Why it matters in your results:
+
+Proxies increased success rate from ~21% → 46%
+
+Reduced average run time significantly (≈ 13 seconds faster)
+
+Proxies + stealth produced some of the highest-scoring configurations
